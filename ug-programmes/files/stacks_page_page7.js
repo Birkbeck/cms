@@ -22,7 +22,7 @@ var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
 
 	// Variables
 	var transitionspeed = 500;
-	var startingAcccordion = 1;
+	var startingAcccordion = 1000;
 	var startingAcccordionActual = (startingAcccordion-1);
 	var startingTab = 1;
 	var startingTabActual = (startingTab-1);
@@ -131,3 +131,11 @@ var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
 	
 });
 return stack;})(stacks.stacks_in_9);
+stacks.stacks_in_39 = {};
+stacks.stacks_in_39 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start doo Tab 2 stack each Javascript code$(document).ready(function() {		// generate the top tabs list	var stacks_in_39x = 1;	$("#stacks_in_39 .uk_co_doobox_dootab2item_stack").each(function(){		var thisId = "stacks_in_39tab" + stacks_in_39x;		var thisTabName = $(this).find(".dooTabContentTitle").html();		$(".stacks_in_39tabs").append('<li class="" rel="' + thisId + '">' + thisTabName + '</li>');		$(this).find(".dooTabContent").attr("id",thisId);		$(this).find(".tab_drawer_heading").attr("rel",thisId).html(thisTabName);		stacks_in_39x++;	});	    //$("#stacks_in_39 .dooTabContent").slideUp();    $("#stacks_in_39 .dooTabContent:first").slideDown();    $(".stacks_in_39tabs li:first").addClass("active");    $(".tab_drawer_heading:first").addClass("stacks_in_39_active");        /* if in tab mode */    $("ul.stacks_in_39tabs li").click(function() {		      $("#stacks_in_39 .dooTabContent").slideUp();      var activeTab = $(this).attr("rel");       $("#"+activeTab).slideDown();				      $("ul.stacks_in_39tabs li").removeClass("active");      $(this).addClass("active");	  $(".tab_drawer_heading").removeClass("stacks_in_39_active");	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("stacks_in_39_active");	      });    	/* if in drawer mode */	$("#stacks_in_39 .tab_drawer_heading").click(function() {            $("#stacks_in_39 .dooTabContent").slideUp();      var stacks_in_39_activeTab = $(this).attr("rel");       $("#stacks_in_39 #"+stacks_in_39_activeTab).slideDown();	  	  $("#stacks_in_39 .tab_drawer_heading").removeClass("stacks_in_39_active");      $(this).addClass("stacks_in_39_active");	  	  $("ul.stacks_in_39tabs li").removeClass("active");	  $("ul.stacks_in_39tabs li[rel^='"+stacks_in_39_activeTab+"']").addClass("active");	  	  if($("#stacks_in_39").offset().top < $(document).scrollTop()){		    $("body").animate({			    scrollTop: $("#stacks_in_39").offset().top			}, 300);	  }    });			/* Extra class "tab_last" 	   to add border to right side	   of last tab */	$('ul.stacks_in_39tabs li').last().addClass("tab_last");	$('ul.stacks_in_39tabs li').first().addClass("tab_first");	});// End doo Tab 2 stack each Javascript code
+return stack;})(stacks.stacks_in_39);
+stacks.stacks_in_71 = {};
+stacks.stacks_in_71 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_71);
