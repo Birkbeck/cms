@@ -1,20 +1,20 @@
 table{border-collapse:collapse;width:100%;margin-bottom:1rem;border-radius:0}tbody,tfoot,thead{border:1px solid #f1f1f1;background-color:#fefefe}caption{padding:.5rem .625rem .625rem;font-weight:700}thead{background:#f8f8f8;color:#0a0a0a}tfoot{background:#f1f1f1;color:#0a0a0a}tfoot tr,thead tr{background:0 0}tfoot td,tfoot th,thead td,thead th{padding:.5rem .625rem .625rem;font-weight:700;text-align:left}tbody td,tbody th{padding:.5rem .625rem .625rem}tbody tr:nth-child(even){border-bottom:0;background-color:#f1f1f1}table.unstriped tbody{background-color:#fefefe}table.unstriped tbody tr{border-bottom:1px solid #f1f1f1;background-color:#fefefe}@media print,screen and (max-width:63.99875em){table.stack thead{display:none}table.stack tfoot{display:none}table.stack td,table.stack th,table.stack tr{display:block}table.stack td{border-top:0}}table.scroll{display:block;width:100%;overflow-x:auto}table.hover thead tr:hover{background-color:#f3f3f3}table.hover tfoot tr:hover{background-color:#ececec}table.hover tbody tr:hover{background-color:#f9f9f9}table.hover:not(.unstriped) tr:nth-of-type(even):hover{background-color:#ececec}.table-scroll{overflow-x:auto}
 /* @group Basics */
 
-#switcherstacks_in_9,
-#switcherstacks_in_9 * {
+#switcherstacks_in_154,
+#switcherstacks_in_154 * {
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
 }
 
-#switcherstacks_in_9 {
+#switcherstacks_in_154 {
 	display: none;
 }
 
 /* Reset for lists within Switcher */
 
-#switcherstacks_in_9 ul ul {
+#switcherstacks_in_154 ul ul {
 	list-style-type: disc;
 }
 
@@ -22,13 +22,13 @@ table{border-collapse:collapse;width:100%;margin-bottom:1rem;border-radius:0}tbo
 
 /* @group Accordion */
 
-ul#accordionInterfacestacks_in_9 {
+ul#accordionInterfacestacks_in_154 {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-ul#accordionInterfacestacks_in_9>li {
+ul#accordionInterfacestacks_in_154>li {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -36,7 +36,7 @@ ul#accordionInterfacestacks_in_9>li {
 
 /* Static accordion */
 
-#accordionInterfacestacks_in_9 .accordion-toggle,
+#accordionInterfacestacks_in_154 .accordion-toggle,
 #mydiv .accordion-toggle {
 	margin-top: 5px;
 	margin-bottom: 0px;
@@ -67,9 +67,9 @@ ul#accordionInterfacestacks_in_9>li {
 	outline: none;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle [class^="fa fa-"],
+#accordionInterfacestacks_in_154 .accordion-toggle [class^="fa fa-"],
 #mydiv .accordion-toggle [class^="fa fa-"],
-#accordionInterfacestacks_in_9 .accordion-toggle i,
+#accordionInterfacestacks_in_154 .accordion-toggle i,
 #mydiv .accordion-toggle i {
 	font-size: 18px;
 	color: rgba(255, 255, 255, 1.00);
@@ -86,7 +86,7 @@ ul#accordionInterfacestacks_in_9>li {
 
 /* Hovered accordion */
 
-#accordionInterfacestacks_in_9 .accordion-toggle:hover,
+#accordionInterfacestacks_in_154 .accordion-toggle:hover,
 #mydiv .accordion-toggle:hover {
 	background: rgba(89, 17, 145, 1.00);
 	color: rgba(255, 255, 255, 1.00);
@@ -106,31 +106,31 @@ ul#accordionInterfacestacks_in_9>li {
 	margin-right: 0px;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle:hover [class^="fa fa-"],
+#accordionInterfacestacks_in_154 .accordion-toggle:hover [class^="fa fa-"],
 #mydiv .accordion-toggle:hover [class^="fa fa-"],
-#accordionInterfacestacks_in_9 .accordion-toggle:hover i,
+#accordionInterfacestacks_in_154 .accordion-toggle:hover i,
 #mydiv .accordion-toggle:hover i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* Clicked accordion */
 
-#accordionInterfacestacks_in_9 .accordion-toggle:active,
+#accordionInterfacestacks_in_154 .accordion-toggle:active,
 #mydiv .accordion-toggle:active {
 	color: rgba(255, 255, 255, 1.00);
 	background: rgba(89, 17, 145, 1.00);
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle:active [class^="fa fa-"],
+#accordionInterfacestacks_in_154 .accordion-toggle:active [class^="fa fa-"],
 #mydiv .accordion-toggle:active [class^="fa fa-"],
-#accordionInterfacestacks_in_9 .accordion-toggle:active i,
+#accordionInterfacestacks_in_154 .accordion-toggle:active i,
 #mydiv .accordion-toggle:active i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* Active accordion */
 
-#accordionInterfacestacks_in_9 .accordion-toggle.ui-state-active,
+#accordionInterfacestacks_in_154 .accordion-toggle.ui-state-active,
 #mydiv .accordion-toggle.ui-state-active {
 	color: rgba(255, 255, 255, 1.00);
 	background: rgba(89, 17, 145, 1.00);
@@ -150,33 +150,33 @@ ul#accordionInterfacestacks_in_9>li {
 	margin-right: 0px;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle.ui-state-active [class^="fa fa-"],
+#accordionInterfacestacks_in_154 .accordion-toggle.ui-state-active [class^="fa fa-"],
 #mydiv .accordion-toggle.ui-state-active [class^="fa fa-"],
-#accordionInterfacestacks_in_9 .accordion-toggle.ui-state-active i,
+#accordionInterfacestacks_in_154 .accordion-toggle.ui-state-active i,
 #mydiv .accordion-toggle.ui-state-active i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* @group Open and closed floating icons */
 
-#accordionInterfacestacks_in_9 .accordion-toggle .closedIcon,
+#accordionInterfacestacks_in_154 .accordion-toggle .closedIcon,
 #mydiv .accordion-toggle .closedIcon {
 	float: right;
 	display: inline;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle .openedIcon,
+#accordionInterfacestacks_in_154 .accordion-toggle .openedIcon,
 #mydiv .accordion-toggle .openedIcon {
 	float: right;
 	display: none;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle.ui-state-active .closedIcon,
+#accordionInterfacestacks_in_154 .accordion-toggle.ui-state-active .closedIcon,
 #mydiv .accordion-toggle.ui-state-active .closedIcon {
 	display: none;
 }
 
-#accordionInterfacestacks_in_9 .accordion-toggle.ui-state-active .openedIcon,
+#accordionInterfacestacks_in_154 .accordion-toggle.ui-state-active .openedIcon,
 #mydiv .accordion-toggle.ui-state-active .openedIcon {
 	display: inline;
 }
@@ -187,19 +187,19 @@ ul#accordionInterfacestacks_in_9>li {
 
 /* @group Tabs */
 
-ul#tabbedInterfacestacks_in_9 {
+ul#tabbedInterfacestacks_in_154 {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-ul#tabbedInterfacestacks_in_9>li {
+ul#tabbedInterfacestacks_in_154>li {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-ul#switcherTabsstacks_in_9 {
+ul#switcherTabsstacks_in_154 {
 	display: block;
 	text-align: left;
 	padding: 0;
@@ -207,7 +207,7 @@ ul#switcherTabsstacks_in_9 {
 	list-style: none;
 }
 
-ul#switcherTabsstacks_in_9 li.switcherTab {
+ul#switcherTabsstacks_in_154 li.switcherTab {
 	display: inline-block;
 	list-style: none;
 	width: 20.00%;
@@ -217,7 +217,7 @@ ul#switcherTabsstacks_in_9 li.switcherTab {
 
 /* Static tabs */
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a {
 	display: block;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
@@ -258,8 +258,8 @@ ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a {
 				border-radius 500ms;
 }
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a [class^="fa fa-"],
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a i {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a [class^="fa fa-"],
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a i {
 	display: block;
 	font-size: 48px;
 	text-align: center;
@@ -288,7 +288,7 @@ ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a i {
 
 /* Hovered Tabs */
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a:hover {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a:hover {
 	background: rgba(89, 17, 145, 1.00);
 	color: rgba(255, 255, 255, 1.00);
 	border-top: 0px solid rgba(255, 255, 255, 1.00);
@@ -306,26 +306,26 @@ ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a:hover {
 	margin-right: 1px !important;
 }
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a:hover [class^="fa fa-"],
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a:hover i {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a:hover [class^="fa fa-"],
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a:hover i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* Clicked tabs */
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default a:active {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default a:active {
 	color: rgba(255, 255, 255, 1.00);
 	background: rgba(89, 17, 145, 1.00);
 }
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default [class^="fa fa-"],
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-state-default i {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default [class^="fa fa-"],
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-state-default i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* Active Tabs */
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-tabs-active.ui-state-active a {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-tabs-active.ui-state-active a {
 	background: rgba(89, 17, 145, 1.00);
 	color: rgba(255, 255, 255, 1.00);
 	border-top: 0px solid rgba(255, 255, 255, 1.00);
@@ -343,40 +343,40 @@ ul#switcherTabsstacks_in_9 li.switcherTab.ui-tabs-active.ui-state-active a {
 	margin-right: 1px !important;
 }
 
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-tabs-active.ui-state-active a [class^="fa fa-"],
-ul#switcherTabsstacks_in_9 li.switcherTab.ui-tabs-active.ui-state-active a i {
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-tabs-active.ui-state-active a [class^="fa fa-"],
+ul#switcherTabsstacks_in_154 li.switcherTab.ui-tabs-active.ui-state-active a i {
 	color: rgba(255, 255, 255, 1.00);
 }
 
 /* Hide accordion toggle headings */
 
-#tabPanesstacks_in_9 a.accordion-toggle {
+#tabPanesstacks_in_154 a.accordion-toggle {
 	display: none;
 }
 
 /* Hide accordion, when in tabbed mode */
 
-#switcherstacks_in_9.tabbed-layout #accordionInterfacestacks_in_9 {
+#switcherstacks_in_154.tabbed-layout #accordionInterfacestacks_in_154 {
 	display: none;
 }
 
 /* Display tabbed interface, when in tabs mode */
 
-#switcherstacks_in_9.tabbed-layout #tabbedInterfacestacks_in_9 {
+#switcherstacks_in_154.tabbed-layout #tabbedInterfacestacks_in_154 {
 	display: block;
 }
 
 /* Hide tabbed interface, when in accordion mode */
 
-#switcherstacks_in_9.accordion-layout #tabbedInterfacestacks_in_9 {
+#switcherstacks_in_154.accordion-layout #tabbedInterfacestacks_in_154 {
 	display: none;
 }
 
 
 /* Hide open / close accordion heading icons */
 
-ul#switcherTabsstacks_in_9 .closedIcon,
-ul#switcherTabsstacks_in_9 .openedIcon {
+ul#switcherTabsstacks_in_154 .closedIcon,
+ul#switcherTabsstacks_in_154 .openedIcon {
 	display: none;
 }
 
@@ -384,8 +384,8 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /* @group Content Panels */
 
-#tabbedInterfacestacks_in_9 .accordion-content,
-#accordionInterfacestacks_in_9 .accordion-content {
+#tabbedInterfacestacks_in_154 .accordion-content,
+#accordionInterfacestacks_in_154 .accordion-content {
 	display: none;
 	list-style: none;
 	padding: 0;
@@ -396,8 +396,8 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 	margin-right: 0px;
 }
 
-#tabbedInterfacestacks_in_9 .accordion-content .contentInner,
-#accordionInterfacestacks_in_9 .accordion-content .contentInner {
+#tabbedInterfacestacks_in_154 .accordion-content .contentInner,
+#accordionInterfacestacks_in_154 .accordion-content .contentInner {
 	color: rgba(51, 51, 51, 1.00);
 	background: rgba(245, 245, 245, 1.00);
 	padding-top: 15px;
@@ -425,11 +425,11 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /* On screens less than our breakpoint, make tabs an accordion */
 @media screen and (max-width: 568px) {
-	#switcherstacks_in_9 #accordionInterfacestacks_in_9 {
+	#switcherstacks_in_154 #accordionInterfacestacks_in_154 {
 		display: block !important;
 	}
 	
-	#switcherstacks_in_9 #tabbedInterfacestacks_in_9 {
+	#switcherstacks_in_154 #tabbedInterfacestacks_in_154 {
 		display: none !important;
 	}
 }
@@ -439,21 +439,21 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 /* @group Print style settings */
 
 @media print {
-	#switcherTabsstacks_in_9 {
+	#switcherTabsstacks_in_154 {
 		display: none !important;
 	}
 	
-	#switcherWrapperstacks_in_9,
-	#switcherstacks_in_9.tabbed-layout .accordion-toggle {
+	#switcherWrapperstacks_in_154,
+	#switcherstacks_in_154.tabbed-layout .accordion-toggle {
 		display: block !important;
 	}
 	
-	#switcherstacks_in_9 .accordion-content {
+	#switcherstacks_in_154 .accordion-content {
 		display: block !important;
 		height: auto !important;
 	}
 	
-	#switcherstacks_in_9 .accordion-content .contentInner {
+	#switcherstacks_in_154 .accordion-content .contentInner {
 		border: none !important;
 	}
 }
@@ -490,7 +490,7 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /*  */
 
-/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_39wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_39 .dooTabContentTitle{	display: none;}ul.stacks_in_39tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_39tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_39tabs li.tab_first { margin-left: 0px; }ul.stacks_in_39tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_39tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_39tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_39 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_39 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_39tabs {		border-bottom: none;	}	.stacks_in_39tabs {		display: none;	}	#stacks_in_39 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_39tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_39_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_39tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_160wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_160 .dooTabContentTitle{	display: none;}ul.stacks_in_160tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_160tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_160tabs li.tab_first { margin-left: 0px; }ul.stacks_in_160tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_160tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_160tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_160 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_160 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_160tabs {		border-bottom: none;	}	.stacks_in_160tabs {		display: none;	}	#stacks_in_160 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_160tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_160_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_160tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* @group Accordion */
 
@@ -508,26 +508,7 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /*  */
 
-/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_74wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_74 .dooTabContentTitle{	display: none;}ul.stacks_in_74tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_74tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_74tabs li.tab_first { margin-left: 0px; }ul.stacks_in_74tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_74tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_74tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_74 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_74 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_74tabs {		border-bottom: none;	}	.stacks_in_74tabs {		display: none;	}	#stacks_in_74 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_74tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_74_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_74tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
-/* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
-/* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
-/* @group Accordion */
-
-/*  */
-
-/* @end */
-
-/* @group Tabs */
-
-/*  */
-
-/* @end */
-
-/* @group Content Panel */
-
-/*  */
-
-/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_94wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_94 .dooTabContentTitle{	display: none;}ul.stacks_in_94tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_94tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_94tabs li.tab_first { margin-left: 0px; }ul.stacks_in_94tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_94tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_94tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_94 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_94 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_94tabs {		border-bottom: none;	}	.stacks_in_94tabs {		display: none;	}	#stacks_in_94 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_94tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_94_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_94tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_181wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_181 .dooTabContentTitle{	display: none;}ul.stacks_in_181tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_181tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_181tabs li.tab_first { margin-left: 0px; }ul.stacks_in_181tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_181tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_181tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_181 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_181 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_181tabs {		border-bottom: none;	}	.stacks_in_181tabs {		display: none;	}	#stacks_in_181 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_181tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_181_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_181tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* @group Accordion */
@@ -546,7 +527,7 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /*  */
 
-/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_114wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_114 .dooTabContentTitle{	display: none;}ul.stacks_in_114tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_114tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_114tabs li.tab_first { margin-left: 0px; }ul.stacks_in_114tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_114tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_114tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_114 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_114 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_114tabs {		border-bottom: none;	}	.stacks_in_114tabs {		display: none;	}	#stacks_in_114 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_114tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_114_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_114tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_204wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_204 .dooTabContentTitle{	display: none;}ul.stacks_in_204tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_204tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_204tabs li.tab_first { margin-left: 0px; }ul.stacks_in_204tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_204tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_204tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_204 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_204 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_204tabs {		border-bottom: none;	}	.stacks_in_204tabs {		display: none;	}	#stacks_in_204 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_204tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_204_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_204tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* @group Accordion */
@@ -565,7 +546,26 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /*  */
 
-/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_134wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_134 .dooTabContentTitle{	display: none;}ul.stacks_in_134tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_134tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_134tabs li.tab_first { margin-left: 0px; }ul.stacks_in_134tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_134tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_134tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_134 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_134 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_134tabs {		border-bottom: none;	}	.stacks_in_134tabs {		display: none;	}	#stacks_in_134 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_134tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_134_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_134tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_227wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_227 .dooTabContentTitle{	display: none;}ul.stacks_in_227tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_227tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_227tabs li.tab_first { margin-left: 0px; }ul.stacks_in_227tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_227tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_227tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_227 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_227 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_227tabs {		border-bottom: none;	}	.stacks_in_227tabs {		display: none;	}	#stacks_in_227 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_227tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_227_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_227tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
+/* @group Accordion */
+
+/*  */
+
+/* @end */
+
+/* @group Tabs */
+
+/*  */
+
+/* @end */
+
+/* @group Content Panel */
+
+/*  */
+
+/* @end *//* Start doo Tab 2 stack each CSS code */#stacks_in_250wrapper{	position: relative;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}#stacks_in_250 .dooTabContentTitle{	display: none;}ul.stacks_in_250tabs {	position: relative;	margin: 0 !important;	padding: 0;	float: left;	list-style: none !important;	list-style-type: none !important;	height: 34px;	border-bottom: 1px solid rgba(179, 179, 179, 1.00);	width: 100%;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}ul.stacks_in_250tabs li {	float: left;	margin: 0;	cursor: pointer;	padding: 0px 21px;	height: 33px;	line-height: 33px !important;	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	/*border-bottom: 1px solid rgba(179, 179, 179, 1.00);*/	border-left: 1px solid rgba(179, 179, 179, 1.00);	background-color: rgba(244, 244, 244, 1.00);	color: rgba(0, 128, 255, 1.00);	overflow: hidden;	position: relative;	margin-left: 2px;	z-index: 1;	-webkit-border-top-left-radius: 4px;	-webkit-border-top-right-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-topright: 4px;	border-top-left-radius: 4px;	border-top-right-radius: 4px;	white-space: nowrap;	font-size: 14px !important;	list-style: none !important;	list-style-type: none !important;	-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */	box-sizing: border-box !important;         /* Opera/IE 8+ */}/*.tab_last { border-right: 1px solid ; }*/ul.stacks_in_250tabs li.tab_first { margin-left: 0px; }ul.stacks_in_250tabs li:hover {	color: rgba(0, 108, 235, 1.00);}ul.stacks_in_250tabs li.active {	background-color: rgba(255, 255, 255, 1.00);	color: rgba(51, 51, 51, 1.00);	border-top: 1px solid rgba(179, 179, 179, 1.00);	border-left: 1px solid rgba(179, 179, 179, 1.00);	border-right: 1px solid rgba(179, 179, 179, 1.00);	display: block;	z-index: 10;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}.stacks_in_250tab_container {	position: relative;	border: 1px solid rgba(179, 179, 179, 1.00);	border-top: none;	background: rgba(255, 255, 255, 1.00);	overflow: auto;	-webkit-border-bottom-right-radius: 3px;	-webkit-border-bottom-left-radius: 3px;	-moz-border-radius-bottomright: 3px;	-moz-border-radius-bottomleft: 3px;	border-bottom-right-radius: 3px;	border-bottom-left-radius: 3px;	-webkit-box-sizing: content-box !important; /* Safari/Chrome, other WebKit */	-moz-box-sizing: content-box !important;    /* Firefox, other Gecko */	box-sizing: content-box !important;         /* Opera/IE 8+ */}#stacks_in_250 .dooTabContent {	padding: 20px;	display: none;}#stacks_in_250 .tab_drawer_heading { display: none; }@media screen and (max-width: 480px) {	ul.stacks_in_250tabs {		border-bottom: none;	}	.stacks_in_250tabs {		display: none;	}	#stacks_in_250 .tab_drawer_heading {		background-color: rgba(244, 244, 244, 1.00) !important;		color: rgba(0, 128, 255, 1.00) !important;		border-top: 1px solid rgba(179, 179, 179, 1.00);		margin: 0;		padding: 8px 20px;		display: block;		cursor: pointer;		-webkit-touch-callout: none;		-webkit-user-select: none;		-khtml-user-select: none;		-moz-user-select: none;		-ms-user-select: none;		user-select: none;		font-size: 16px !important;	}	.stacks_in_250tab_container > div:first-child .tab_drawer_heading {		border-top: 0px !important;	}	.stacks_in_250_active {		background-color: rgba(255, 255, 255, 1.00) !important;		color: rgba(51, 51, 51, 1.00);		border-bottom: 1px solid rgba(179, 179, 179, 1.00);	}	.stacks_in_250tab_container {	border: 1px solid rgba(179, 179, 179, 1.00) !important;	-webkit-border-radius: 4px;	-moz-border-radius: 4px;	border-radius: 4px;	}}/* End doo Tab 2 stack each CSS code *//* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* Start doo Tab 2 item stack each CSS code *//* End doo Tab 2 item stack each CSS code */
 /* @group Accordion */
@@ -600,4 +600,4 @@ ul#switcherTabsstacks_in_9 .openedIcon {
 
 /*  */
 
-/* @end *//* Start Responsive Shim stack CSS code */.stacks_in_71shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
+/* @end *//* Start Responsive Shim stack CSS code */.stacks_in_276shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
