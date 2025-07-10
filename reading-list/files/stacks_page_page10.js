@@ -22,9 +22,9 @@ var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
 
 	// Variables
 	var transitionspeed = 500;
-	var startingAcccordion = 1;
+	var startingAcccordion = 100;
 	var startingAcccordionActual = (startingAcccordion-1);
-	var startingTab = 1;
+	var startingTab = 0;
 	var startingTabActual = (startingTab-1);
 
 	// Loop through our Switcher and give each accordion toggle a unique href value
@@ -87,9 +87,9 @@ var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
 	$('#tabbedInterfacestacks_in_43').tabs({
 		animate: 500,
 		
-		// If starting tab is NOT equal to zero, start at the defined tab
-		active: startingTabActual,
 		
+		// If starting tab IS equal to zero, there is no active tab
+		active: false,
 		
 		collapsible: false,
 		heightStyle: "content",
@@ -131,3 +131,88 @@ var jQuery = stacks.jQuery;var $ = jQuery;$(document).ready(function() {
 	
 });
 return stack;})(stacks.stacks_in_43);
+stacks.stacks_in_63 = {};
+stacks.stacks_in_63 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// HIPPO STACK BY http://www.doobox.co.uk XXXXXXX
+// COPYRIGHT@2010 MR JG SIMPSON, TRADING AS DOOBOX
+// ALL RIGHTS RESERVED XXXXXXXXXXXXXXXXXXXXXXXXXXX
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+$(document).ready(function() {
+
+if(typeof String.prototype.trim !== 'function') {
+			String.prototype.trim = function() {
+			return this.replace(/^\s+|\s+$/, '');
+			}
+		}
+       
+      var stacks_in_63catTrimed;
+	$("#stacks_in_63 .stacks_in_63dootabcontainer").each(function() {
+		var stacks_in_63thiscat = $(".stacks_in_63doocat .stacks_in_63tabname", this).text().trim();
+		var stacks_in_63thiscatArray = stacks_in_63thiscat.split(',');
+		var stacks_in_63doothis = $(this);
+		// stacks_in_63thiscatArray now holds this instance of cats and any multi cats in this section
+		// next we loop through each pulled cat from this section, each cat is in a var named catname.
+		$.each(stacks_in_63thiscatArray, function(index, catname) {
+		stacks_in_63catTrimed = catname.trim().replace(/[^a-z0-9]/gi,"");
+		$(stacks_in_63doothis).addClass(stacks_in_63catTrimed);
+
+		if($( "#stacks_in_63 #" + stacks_in_63catTrimed).length == 0){
+		$("#stacks_in_63tabpicker").append('<a href="#" id="'+stacks_in_63catTrimed+'" class="stacks_in_63doofilter">'+catname+'</a> ');
+		}
+		});
+	});
+
+
+       
+
+   
+   $("#stacks_in_63 .stacks_in_63doofilter").click(function(){
+        var thisFilter = $(this).attr("id");
+        var filterboxheight = $("#stacks_in_63").height();
+        $("#stacks_in_63 .stacks_in_63overalltabcontainer").css("min-height",filterboxheight);
+        $("#stacks_in_63 .stacks_in_63dootabcontainer").slideUp();
+        $("#stacks_in_63 ."+ thisFilter).slideDown('slow', function() {
+        	 $("#stacks_in_63 .stacks_in_63overalltabcontainer").animate({"min-height":"10px"},"slow");
+ 		 });
+        $("#stacks_in_63 #stacks_in_63tabpicker a").removeClass("stacks_in_63current");
+        $(this).addClass("stacks_in_63current");
+        return false;
+   });
+   
+
+   $("#stacks_in_63tabpicker a:first-child").addClass("stacks_in_63current");
+
+
+});
+
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// END DOOBOX HIPPO STACK XXXXXXXXXXXXXXXXXXXX
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+return stack;})(stacks.stacks_in_63);
+stacks.stacks_in_70 = {};
+stacks.stacks_in_70 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;
+
+
+
+
+
+
+
+return stack;})(stacks.stacks_in_70);
+stacks.stacks_in_71 = {};
+stacks.stacks_in_71 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;
+
+
+
+
+
+
+
+return stack;})(stacks.stacks_in_71);
