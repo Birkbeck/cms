@@ -1,54 +1,11 @@
-#stacks_in_11>.s3_row {
-	margin: 0 -10px;
+/* Start Liquid Columns stack CSS code */ .stacks_in_26column { float:left; display:inline; }.stacks_in_26one-third.stacks_in_26column { 	width: 33.333333333% /* 320px / 960px */;}.stacks_in_26first{	padding-left: 0;	padding-right: 13px;	padding-bottom: 0;}.stacks_in_26middle{	padding-left: 7px;	padding-right: 6px;	padding-bottom: 0;}.stacks_in_26last{	padding-left: 13px;	padding-right: 0;	padding-bottom: 0;}@media only screen and (max-width: 979px) {	.stacks_in_26first{	padding-left: 0;	padding-right: 0;	padding-bottom: 20px;	}	.stacks_in_26middle{		padding-left: 0;		padding-right: 10px;		padding-bottom: 0;	}		.stacks_in_26last{		padding-left: 10px;		padding-right: 0;		padding-bottom: 0;	}	    .stacks_in_26one-third.stacks_in_26column {     	width: 50%;     }    .stacks_in_26one-third.stacks_in_26column.stacks_in_26more-important {     	width:100%;     }    }@media only screen and (max-width: 480px) {	.stacks_in_26first{	padding-left: 0;	padding-right: 0;	padding-bottom: 10px;	}	.stacks_in_26middle{		padding-left: 0;		padding-right: 0;		padding-bottom: 10px;	}		.stacks_in_26last{		padding-left: 0;		padding-right: 0;		padding-bottom: 0;	}	    .stacks_in_26one-third.stacks_in_26column {     	width: 100%;    }        .stacks_in_26one-third.stacks_in_26column.stacks_in_26more-important {     	width:100%;     }    }/* End Liquid Columns stack CSS code */#fadeinWrapperstacks_in_20 {
+	display: block;
+	position: relative;
+	height: 400;	
 }
 
-#stacks_in_11>.s3_row>.s3_column_left {
-	width: 75.21%;
-}
-
-#stacks_in_11>.s3_row>.s3_column_right {
-	width: 24.790001%;
-}
-
-
-
-
-#stacks_in_11>.s3_row>.s3_column {
-	padding: 0 10px;
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 770px) {
-
-
-
-}
-
-
-
-@media only screen and (max-width: 400px) {
-
-
-	#stacks_in_11>.s3_row  {
-		margin: -10px 0;
-	}
-	#stacks_in_11>.s3_row>.s3_column {
-		padding: 10px 0;
-		width:100%;
-	}
-
-
-}
-
-
-
-
-
+#fadeInStackstacks_in_20 {
+	display: none;
+	position: relative;
+	z-index: 20;
+}
