@@ -52,3 +52,44 @@
 
 
 
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_15 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_15 {
+		display: none !important;
+	}
+}
