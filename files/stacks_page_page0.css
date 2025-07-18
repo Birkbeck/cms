@@ -1,4 +1,54 @@
-/* Start Liquid Columns stack CSS code */ .stacks_in_26column { float:left; display:inline; }.stacks_in_26one-third.stacks_in_26column { 	width: 33.333333333% /* 320px / 960px */;}.stacks_in_26first{	padding-left: 0;	padding-right: 13px;	padding-bottom: 0;}.stacks_in_26middle{	padding-left: 7px;	padding-right: 6px;	padding-bottom: 0;}.stacks_in_26last{	padding-left: 13px;	padding-right: 0;	padding-bottom: 0;}@media only screen and (max-width: 979px) {	.stacks_in_26first{	padding-left: 0;	padding-right: 0;	padding-bottom: 20px;	}	.stacks_in_26middle{		padding-left: 0;		padding-right: 10px;		padding-bottom: 0;	}		.stacks_in_26last{		padding-left: 10px;		padding-right: 0;		padding-bottom: 0;	}	    .stacks_in_26one-third.stacks_in_26column {     	width: 50%;     }    .stacks_in_26one-third.stacks_in_26column.stacks_in_26more-important {     	width:100%;     }    }@media only screen and (max-width: 480px) {	.stacks_in_26first{	padding-left: 0;	padding-right: 0;	padding-bottom: 10px;	}	.stacks_in_26middle{		padding-left: 0;		padding-right: 0;		padding-bottom: 10px;	}		.stacks_in_26last{		padding-left: 0;		padding-right: 0;		padding-bottom: 0;	}	    .stacks_in_26one-third.stacks_in_26column {     	width: 100%;    }        .stacks_in_26one-third.stacks_in_26column.stacks_in_26more-important {     	width:100%;     }    }/* End Liquid Columns stack CSS code */#fadeinWrapperstacks_in_20 {
+/*
+ * text-align
+ */
+
+.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-justify{text-align:justify}.text-nomargin-top{margin-top:0}.text-nomargin-top.text >:first-child{margin-top:0}.text-nomargin-bottom{margin-bottom:0}.text-nomargin-bottom.text >:last-child{margin-bottom:0}
+
+
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_34 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_34 {
+		display: none !important;
+	}
+}
+
+
+#fadeinWrapperstacks_in_20 {
 	display: block;
 	position: relative;
 	height: 400;	
@@ -8,4 +58,44 @@
 	display: none;
 	position: relative;
 	z-index: 20;
-}
+}
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_35 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_35 {
+		display: none !important;
+	}
+}
