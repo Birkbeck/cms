@@ -762,3 +762,43 @@ ul#switcherTabsstacks_in_43 .openedIcon {
 /*  */
 
 /* @end */
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_72 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_72 {
+		display: none !important;
+	}
+}

@@ -93,3 +93,44 @@
 		display: none !important;
 	}
 }
+
+.spacerStack {
+	height: 40.00px;
+}
+
+#spacerStackstacks_in_16 {
+	height: 40.00px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+	#spacerStackstacks_in_16 {
+		display: none !important;
+	}
+}
